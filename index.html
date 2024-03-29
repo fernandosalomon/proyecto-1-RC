@@ -22,7 +22,80 @@
 </head>
 <body>
     <header></header>
-    <main></main>
+    <main>
+    <!-- Slider con promociones -->
+    <section>
+      <div
+        id="carousel-promotions"
+        class="carousel slide carousel-maxheight"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel-promotions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-promotions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-promotions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/prom_1.jpg"
+              class="d-block w-100"
+              alt="Promoción 'En agosto nos vemos'"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/prom_2.jpg"
+              class="d-block w-100"
+              alt="Promoción 'Alas de Hierro'"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/prom_3.jpg"
+              class="d-block w-100"
+              alt="Promoción 'La riqueza que el dinero no puede comprar'"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-promotions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-promotions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    </main>
     <footer></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
