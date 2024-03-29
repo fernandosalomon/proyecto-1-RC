@@ -39,6 +39,31 @@ body {
 
 /* ================MAIN==================== */
 
+.carousel-inner{
+    height: 500px;
+}
+
+.carousel-item, img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+@media (max-width: 576px){
+    .carousel-inner{
+        height: 250px;
+    }
+
+    .carousel-item, img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+
 main hr {
     margin: 1.5rem 0;
 }
@@ -47,15 +72,15 @@ main hr {
     min-width: 20%;
     padding: 1.5rem 0;
     background-color: var(--secondary-color);
-  }
+}
   
 .card-body {
     padding: 1rem 0;
-  }
+}
   
 .card img {
     object-fit: contain;
-  }
+}
   
 .card-title {
     text-transform: capitalize;
@@ -66,7 +91,7 @@ main hr {
     text-overflow: ellipsis; /* Agrega ... al texto cuando hay overflow */
     white-space: nowrap; /*Mantiene el texto en la misma linea*/
     width: 100%;
-  }
+}
   
 .card-author {
     text-transform: capitalize;
@@ -80,14 +105,14 @@ main hr {
     white-space: nowrap; /*Mantiene el texto en la misma linea*/
     width: 100%;
     margin-bottom: 1rem;
-  }
+}
   
 .card-price {
     margin-bottom: 0;
     font-weight: 700;
     font-size: 1.5rem;
     text-align: left;
-  }
+}
   
 .btn-card-product {
     align-items: center;
@@ -109,36 +134,24 @@ main hr {
     text-decoration: none;
     transition: all 250ms;
     width: auto;
-  }
+}
   
 .btn-card-product:hover,
 .btn-card-product:focus {
     background-color: #fb8332;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  }
+}
   
 .btn-card-product:hover {
     transform: translateY(-1px);
-  }
+}
   
 .button-card-product:active {
     background-color: #c85000;
     box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
     transform: translateY(0);
-  }
-
-@media (max-width: 576px){
-    .carousel-inner{
-        height: 150px;
-    }
-
-    .carousel-item, img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
 }
+
 
 
 
