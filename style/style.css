@@ -16,7 +16,116 @@
     font-family: "Balsamiq Sans", sans-serif;
 }
 
+.uppercase-text {
+    text-transform: uppercase;
+}
 
+
+.text-color-main {
+    color: var(--main-color);
+}
+
+
+.text-justify {
+    text-align: justify;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray-color);
+}
+
+/* ================MAIN==================== */
+
+main hr {
+    margin: 1.5rem 0;
+}
+  
+.product-card {
+    min-width: 20%;
+    padding: 1.5rem 0;
+    background-color: var(--secondary-color);
+  }
+  
+.card-body {
+    padding: 1rem 0;
+  }
+  
+.card img {
+    object-fit: contain;
+  }
+  
+.card-title {
+    text-transform: capitalize;
+    text-align: justify;
+    font-size: 1.3rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Agrega ... al texto cuando hay overflow */
+    white-space: nowrap; /*Mantiene el texto en la misma linea*/
+    width: 100%;
+  }
+  
+.card-author {
+    text-transform: capitalize;
+    text-align: justify;
+    font-size: 1.2rem;
+    color: var(--main-color);
+    font-weight: 700;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Agrega ... al texto cuando hay overflow */
+    white-space: nowrap; /*Mantiene el texto en la misma linea*/
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+.card-price {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  
+.btn-card-product {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    text-decoration: none;
+    transition: all 250ms;
+    width: auto;
+  }
+  
+.btn-card-product:hover,
+.btn-card-product:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+.btn-card-product:hover {
+    transform: translateY(-1px);
+  }
+  
+.button-card-product:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    transform: translateY(0);
+  }
 
 @media (max-width: 576px){
     .carousel-inner{
