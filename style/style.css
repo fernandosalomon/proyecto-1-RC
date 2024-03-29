@@ -1,8 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+
+:root {
+  --main-color: #faab78;
+  --main-light-color: #ffdca9;
+  --secondary-color: #fcf9be;
+  --secondary-light-color: #e8f3d6;
+  --dark-color: #1f1717;
+  --gray-color: #f8f8f8;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Balsamiq Sans", sans-serif;
 }
+
+
 
 @media (max-width: 576px){
     .carousel-inner{
@@ -16,3 +30,6 @@
     }
 
 }
+
+
+
