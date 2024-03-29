@@ -22,6 +22,10 @@
     background-color: #fcf9be;
 }
 
+.logo{
+    justify-self: center;
+}
+
 .logo img{
     width: 25%;
     max-width: 50px;
