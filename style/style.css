@@ -24,6 +24,7 @@
 
 .logo img{
     width: 25%;
+    max-width: 50px;
 }
 
 .shopping-cart-btn{
@@ -39,4 +40,10 @@
     border-radius: 50%;
     width: 40%;
     height: 45%;
+}
+
+@media (min-width: 990px){
+    .navbar-toggler-btn{
+        display: none;
+    }
 }
