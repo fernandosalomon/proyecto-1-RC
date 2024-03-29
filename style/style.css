@@ -23,5 +23,20 @@
 }
 
 .logo img{
-    width: 15%;
+    width: 25%;
+}
+
+.shopping-cart-btn{
+    position: relative;
+}
+
+.nitems-added{
+    position: absolute;
+    top: 0px;
+    right: -9px;
+    border: 1px solid black;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    width: 40%;
+    height: 45%;
 }
