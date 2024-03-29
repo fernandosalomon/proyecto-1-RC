@@ -152,6 +152,20 @@ main hr {
     transform: translateY(0);
 }
 
+.side-ads {
+    display: none;
+}
+  
+@media (min-width: 768px) {
+    .side-ads {
+      display: block;
+    }
+}
+  
+.ads-image {
+    object-fit: cover;
+}
+
 
 
 
