@@ -118,4 +118,36 @@ footer {
 .btn-primary {
     border-color: #faab78;
 }
-  
+
+
+.img-login-container img{
+    max-width: 200px;
+    width: 100%;
+}
+
+.btn-facebook-login img,
+.btn-google-login img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.btn-facebook-login p,
+.btn-google-login p{
+    font-size: 1.1rem;
+}
+
+.btn-facebook-login{
+    background-color: #1877f2;
+    padding: 0.5rem;
+    border-radius: 40px;
+    width: 80%;
+
+}
+
+.btn-google-login{
+    background-color: #efefef;
+    padding: 0.5rem;
+    border-radius: 40px;
+    width: 80%;
+}
+
