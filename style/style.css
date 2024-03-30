@@ -1,5 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+
+:root {
+  --main-color: #faab78;
+  --main-light-color: #ffdca9;
+  --secondary-color: #fcf9be;
+  --secondary-light-color: #e8f3d6;
+  --dark-color: #1f1717;
+  --gray-color: #f8f8f8;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+/* ==================NAVBAR===================== */
+
+.navbar {
+    background-color: #fcf9be;
+}
+
+.logo{
+    justify-self: center;
+}
+
+.logo img{
+    width: 25%;
+    max-width: 50px;
+}
+
+.shopping-cart-btn{
+    position: relative;
+}
+
+.nitems-added{
+    position: absolute;
+    top: 0px;
+    right: -9px;
+    border: 1px solid black;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    width: 40%;
+    height: 45%;
+}
+
+@media (min-width: 990px){
+    .navbar-toggler-btn{
+        display: none;
+    }
 }
