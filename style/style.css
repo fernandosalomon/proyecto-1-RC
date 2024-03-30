@@ -16,6 +16,74 @@
     font-family: "Balsamiq Sans", sans-serif;
 }
 
+
+/* ================FOOTER================= */
+
+.parrafo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.left-column {
+    margin: 20px;
+    text-align: start;
+}
+
+.right-column {
+    margin: 70px;
+}
+  
+footer {
+    background-color: #fcf9be;
+}
+
+.btn-primary {
+    background-color: #faab78;
+    color: black;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    color: black;
+}
+  
+.imagen-footer {
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .left-column,
+    .center-column,
+    .right-column {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .imagen-footer {
+      height: 70px;
+      margin-top: 0px;
+    }
+    * {
+      font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .right-column {
+      margin: 30px;
+    }
+}
+  
+.btn-primary {
+    border-color: #faab78;
+}
+  
 /* ==================NAVBAR===================== */
 
 .navbar {
@@ -51,3 +119,4 @@
         display: none;
     }
 }
+
