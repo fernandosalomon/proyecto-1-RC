@@ -249,18 +249,23 @@
                     class="form-control"
                     id="floatingInput"
                     placeholder="Tú Nombre"
+                    pattern="^[A-ZÑa-zñáéíóúÁÉÍÓÚ']{1,32}"
+                    required
                   />
                   <label for="floatingInput">¿Quién Eres?</label>
                 </div>
                 <div class="form-floating">
                   <textarea
                     class="form-control"
-                    placeholder="Dejanos tus comentarios"
+                    placeholder="Dejanos tus comentarios (140 caracteres máximo)"
                     id="commentTextArea"
                     style="height: 150px"
+                    maxlength="140"
+                    required
                   ></textarea>
-                  <label for="commentTextArea">Dejanos tu comentario</label>
+                  <label for="commentTextArea">Dejanos tus comentarios (140 caracteres máximo)</label>
                 </div>
+                <button type="submit" class="btn">Enviar comentario</button>
               </form>
             </div>
             <div class="col-12 col-md-6 p-0">
