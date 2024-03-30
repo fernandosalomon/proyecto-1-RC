@@ -1,6 +1,11 @@
 .img-product {
-    object-fit: contain;
+    object-fit: cover;
     max-width: 500px;
-    padding: 1.5rem;
     background-color: #fff;
-  }
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+
