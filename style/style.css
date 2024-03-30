@@ -9,6 +9,17 @@
   --gray-color: #f8f8f8;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+
+:root {
+  --main-color: #faab78;
+  --main-light-color: #ffdca9;
+  --secondary-color: #fcf9be;
+  --secondary-light-color: #e8f3d6;
+  --dark-color: #1f1717;
+  --gray-color: #f8f8f8;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -51,3 +62,71 @@
         display: none;
     }
 }
+
+/* ================FOOTER================= */
+
+.parrafo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.left-column {
+    margin: 20px;
+    text-align: start;
+}
+
+.right-column {
+    margin: 70px;
+}
+  
+footer {
+    background-color: #fcf9be;
+}
+
+.btn-primary {
+    background-color: #faab78;
+    color: black;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    color: black;
+}
+  
+.imagen-footer {
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .left-column,
+    .center-column,
+    .right-column {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .imagen-footer {
+      height: 70px;
+      margin-top: 0px;
+    }
+    * {
+      font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .right-column {
+      margin: 30px;
+    }
+}
+  
+.btn-primary {
+    border-color: #faab78;
+}
+  
