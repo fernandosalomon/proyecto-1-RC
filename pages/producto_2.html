@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="e-commerce of book, audiobooks and ebooks"
+    />
+    <meta
+      name="keywords"
+      content="books, audiobooks, ebooks, authors, literature"
+    />
+    <meta
+      name="author"
+      content="Fernando F. Salomon, Esteban Carrizo, Gladis Cabral, Mauricio De Cristobal, Exequiel Quispe"
+    />
+    <title>Cortázar Libros</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/pagina-productos-style.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid d-flex flex-column flex-sm-row align-items-center flex-grow-0 gap-3 ">
+            <div class="logo text-center">
+                <img src="../img/favicon.png" alt="Cortazar Libros">
+                <a class="navbar-brand" href="#">Cortazar</a>
+            </div>
+            <div class="my-auto flex-grow-1">
+              <form class="" role="search">
+                <input
+                  class="form-control me-2 rounded-5"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Search"
+                />
+              </form>
+            </div>
+            <div class="navbar-toggler-btn ms-3">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse text-center flex-grow-0" id="navbarSupportedContent">
+              <div class="container d-flex flex-column flex-lg-row">
+                  <ul class="navbar-nav">
+                    <li class="nav-item px-auto">
+                      <a class="nav-link" href="#">Acerca De Nosotros</a>
+                    </li>
+                    <li class="nav-item px-auto">
+                      <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                  </ul>
+                <div class="">
+                  <div>
+                    <button type="button" class="btn navbar-btn shopping-cart-btn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-shopping-cart-filled"
+                      width="36"
+                      height="36"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="#2c3e50"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M6 2a1 1 0 0 1 .993 .883l.007 .117v1.068l13.071 .935a1 1 0 0 1 .929 1.024l-.01 .114l-1 7a1 1 0 0 1 -.877 .853l-.113 .006h-12v2h10a3 3 0 1 1 -2.995 3.176l-.005 -.176l.005 -.176c.017 -.288 .074 -.564 .166 -.824h-5.342a3 3 0 1 1 -5.824 1.176l-.005 -.176l.005 -.176a3.002 3.002 0 0 1 1.995 -2.654v-12.17h-1a1 1 0 0 1 -.993 -.883l-.007 -.117a1 1 0 0 1 .883 -.993l.117 -.007h2zm0 16a1 1 0 1 0 0 2a1 1 0 0 0 0 -2zm11 0a1 1 0 1 0 0 2a1 1 0 0 0 0 -2z"
+                        stroke-width="0"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span class="nitems-added">1</span>
+                    </button>
+                    <button type="button" class="btn navbar-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-filled" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor" />
+                      <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" stroke-width="0" fill="currentColor" />
+                    </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              
+            
+            </div>
+          </div> 
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid my-5 mx-auto">
+        <div class="container row p-0 gy-4">
+          <div class="col-12 col-md-6 text-center mx-auto p-0">
+            <img
+            src="../img/rayuela.webp"
+            class="img-product"
+            alt="Rayuela"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <section class="product-title">
+              <h5 class="product-title fs-1 fw-bold">Rayuela</h5>
+              <p class="product-author fs-4 fw-bold text-color-main">
+                Julio Cortázar
+              </p>
+            </section>
+            <hr />
+            <section class="product-selling-options">
+              <h5 class="my-3 fs-4">Formatos disponibles</h5>
+              <form action="">
+                <select
+                  class="form-select my-3 fs-4"
+                  aria-label="Default select example"
+                >
+                  <option selected>Tapa blanda - $18500,00</option>
+                  <option value="1">eBook - $6800,00</option>
+                  <option value="2">Kindle - $8000,00</option>
+                </select>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-card-product fs-4" type="button">
+                    Comprar
+                  </button>
+                </div>
+              </form>
+            </section>
+            <section class="product-details my-3">
+              <hr />
+              <p class="d-inline-flex gap-1 w-100 m-0">
+                <button
+                  class="border-0 bg-transparent fs-3 fw-bold dropdown-toggle dropdown-toggle-split d-flex align-items-center justify-content-between w-100"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#productCollapse"
+                  aria-expanded="false"
+                  aria-controls="productCollapse"
+                >
+                  Detalles del producto
+                </button>
+              </p>
+              <hr />
+              <div class="collapse" id="productCollapse">
+                <div>
+                  <table class="table table-hover fs-5">
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="p-3 bg-transparent">
+                          Colección
+                        </th>
+                        <td class="p-3 bg-transparent">Biblioteca Cortázar</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="p-3 bg-transparent">Páginas</th>
+                        <td class="p-3 bg-transparent">756</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="p-3 bg-transparent">
+                          Fecha de Publicación
+                        </th>
+                        <td class="p-3 bg-transparent" colspan="2">
+                          28-06-1963
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="p-3 bg-transparent">Idioma</th>
+                        <td class="p-3 bg-transparent">ES</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="p-3 bg-transparent">Autor</th>
+                        <td class="p-3 bg-transparent">
+                          Julio Cortázar
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="p-3 bg-transparent">
+                          Editorial
+                        </th>
+                        <td colspan="2" class="p-3 bg-transparent">
+                          Alfaguara
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="p-3 bg-transparent">
+                          Target de Edad
+                        </th>
+                        <td colspan="2" class="p-3 bg-transparent">Adultos</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+          </div>
+          <hr />
+          <section class="product-description-short text-center col-12">
+            <p class="fs-4 ">
+                Un verdadero artefacto literario que con poesía, música y originalidad recorre en un mismo viaje París, Buenos Aires y los rincones más inaccesibles de un grupo de personas que, en el afán de encontrarse, se escapan de sí mismas.
+            </p>
+
+            <p class="fst-italic fs-5">
+              «En pleno contento precario, en plena falsa tregua, tendí la mano y toqué el ovillo París, su materia infinita arrollándose a sí misma; entonces no había desorden, entonces el mundo seguía siendo algo petrificado y establecido, un juego de elementos girando en sus goznes, una madeja de calles y árboles y nombres y meses.»
+            </p>
+          </section>
+          <hr />
+          <section class="product-description-long col-12">
+            <h5 class="fs-2 fw-bold mb-4">Descripción</h5>
+            <p class="text-justify px-3 text-justify fs-4">
+                En pleno contento precario, en plena falsa tregua, tendí la mano y toqué el ovillo París, su materia infinita arrollándose a sí misma; entonces no había desorden, entonces el mundo seguía siendo algo petrificado y establecido, un juego de elementos girando en sus goznes, una madeja de calles y árboles y nombres y meses.
+            </p>
+          </section>
+          <hr />
+        </div>
+        <div class="container p-0">
+          <h2 class="text-center my-5">
+            ¿Qué te pareció este libro? - Dejanos un comentario
+          </h2>
+          <div class="container row gx-5 gy-5 mx-auto">
+            <div class="col-12 col-md-6">
+              <form action="" class="mt-3">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="Tú Nombre"
+                    pattern="^[A-ZÑa-zñáéíóúÁÉÍÓÚ']{1,32}"
+                    required
+                  />
+                  <label for="floatingInput">¿Quién Eres?</label>
+                </div>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Dejanos tus comentarios (140 caracteres máximo)"
+                    id="commentTextArea"
+                    style="height: 150px"
+                    maxlength="140"
+                    required
+                  ></textarea>
+                  <label for="commentTextArea">Dejanos tus comentarios</label>
+                </div>
+                <button type="submit" class="btn btn-card-product mt-3">Enviar comentario</button>
+              </form>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+              <div class="container user-comment-card text-justify">
+                <div class="user-info d-flex align-items-center mb-3">
+                  <img
+                    src="../img/user-logo.png"
+                    class="usr-img card-img-top me-2"
+                    alt="user logo"
+                  />
+                  <h5 class="card-title fw-bold">Arturo</h5>
+                </div>
+                <div class="user-comment mb-3">
+                  <p class="card-text ps-3 fs-5">
+                    Muy bueno el libro. No podía dejar de leerlo.
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="container user-comment-card text-justify">
+                <div class="user-info d-flex align-items-center mb-3">
+                  <img
+                    src="../img/user-logo.png"
+                    class="usr-img card-img-top me-2"
+                    alt="user logo"
+                  />
+                  <h5 class="card-title fw-bold">Pedro</h5>
+                </div>
+                <div class="user-comment mb-3">
+                  <p class="card-text ps-3 fs-5">
+                    Excelente. Voy por la mitad y no puedo soltarlo.
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="container user-comment-card text-justify">
+                <div class="user-info d-flex align-items-center mb-3">
+                  <img
+                    src="../img/user-logo.png"
+                    class="usr-img card-img-top me-2"
+                    alt="user logo"
+                  />
+                  <h5 class="card-title fw-bold">Julieta</h5>
+                </div>
+                <div class="user-comment mb-3">
+                  <p class="card-text ps-3 fs-5">
+                    La trama te atrapa un montón. De los mejores libros que voy
+                    leyendo.
+                  </p>
+                </div>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>   
+      </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-sm-12 col-md-4 order-2 order-md-1">
+              <div class="left-column">
+                <ul class="list-group">
+                  <li class="list-group-item border-0 bg-transparent"><h4>Temáticas</h4></li>
+                  <a href="#"><li class="list-group-item border-0 bg-transparent p-1">Literatura</li></a>
+                  <a href="#"> <li class="list-group-item border-0 bg-transparent p-1">Grandes clásico</li></a>
+                  <a href="#"><li class="list-group-item border-0 bg-transparent p-1">Juvenil</li></a>
+                  <a href="#"> <li class="list-group-item border-0 bg-transparent p-1">Aventura</li></a>
+                  <a href="#"> <li class="list-group-item border-0 bg-transparent p-1">Autoayuda</li></a>
+                  <a href="#"> <li class="list-group-item border-0 bg-transparent p-1">Y más...</li></a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 order-1 order-md-2">
+              <div class="center-column d-flex flex-column align-items-center">
+                <a href="">
+                  <img class="imagen-footer" src="../img/1.png" alt="logo"/>
+                </a>
+                <div class="text-center">
+                  <p class="m-3">Suscribite para recibir recomendaciones</p>
+                  <a class="btn btn-primary" href="#" role="button"
+                    >Suscribirse</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 order-3 order-md-3 text-center">
+                <ul class="list-group">
+                  <a href=""><li class="list-group-item border-0 bg-transparent p-1">Sobre nosotros</li></a>
+                  <a href=""><li class="list-group-item border-0 bg-transparent p-1">Ayuda y Soporte</li></a>
+                </ul>
+                <div class="social-networks mt-3">
+                  <p class="fs-4">Siguenos en redes</p>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                      <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                      <path d="M16.5 7.5l0 .01" />
+                    </svg>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                      <path d="M10 9l5 3l-5 3z" />
+                    </svg>
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
