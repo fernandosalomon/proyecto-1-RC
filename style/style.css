@@ -301,7 +301,21 @@ footer {
 }
   
 .btn-primary {
+    background-color: #faab78;
     border-color: #faab78;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:focus-visible {
+    background-color: #f38e4b;
+    border-color: #f38e4b;
+    box-shadow: 0 0 0 0.25rem #fac4a1;
+}
+
+.btn-primary:active {
+    background-color: #f38e4b!important;
+    border-color:#f38e4b!important;
 }
 
 @media (max-width: 767px) {
