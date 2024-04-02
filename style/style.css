@@ -64,3 +64,6 @@
     background-color: var(--secondary-color);
 }
 
+.offcanvas-element-list-hover:hover{
+    color: #FF8C00;
+}
