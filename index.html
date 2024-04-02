@@ -24,6 +24,16 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid d-flex flex-column flex-sm-row align-items-center flex-grow-0 gap-3 ">
+            <button class="btn navbar-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#bookCategories" aria-controls="bookCategories">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+              </svg>
+            </button>
+
+
             <div class="logo text-center">
                 <img src="./img/favicon.png" alt="Cortazar Libros">
                 <a class="navbar-brand" href="#">Cortazar</a>
@@ -94,15 +104,43 @@
                     </button>
                   </div>
                 </div>
-              </div>
-              
-            
+              </div>            
             </div>
-          </div> 
+          </div>
+          
       </nav>
     </header>
     <main></main>
     <footer></footer>
+
+      <!-- ===============OFFCANVAS CODE================== -->
+          
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="bookCategories" aria-labelledby="bookCategoriesLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="list-group list-unstyled bg-transparent">
+            <li class="list-group-item border-0 bg-transparent">
+              <p>Temáticas</p>
+              <ul class="list-group list-unstyled bg-transparent">
+                <li><a class="list-group-item border-0 bg-transparent" href="#">Literatura</a></li>
+                <li><a class="list-group-item border-0 bg-transparent" href="#">Grandes Clásicos</a></li>
+                <li><a class="list-group-item border-0 bg-transparent" href="#">Juvenil</a></li>
+                <li><a class="list-group-item border-0 bg-transparent" href="#">Aventura</a></li>
+                <li><a class="list-group-item border-0 bg-transparent" href="#">Autoayuda</a></li>
+                <li><a class="list-group-item border-0 bg-transparent" href="#">Y mas...</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="" class="list-group-item border-0 bg-transparent">Autores</a>
+            </li>
+            <li ><a href="" class="list-group-item border-0 bg-transparent">Sobre Nosotros</a></li>
+            <li ><a href="" class="list-group-item border-0 bg-transparent">Ingresar</a></li>
+          </ul>
+
+        </div>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
