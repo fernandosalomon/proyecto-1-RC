@@ -22,13 +22,46 @@
     background-color: #fcf9be;
 }
 
-.logo{
-    justify-self: center;
+.gap-0-flex{
+    gap: 0rem!important;
 }
 
 .logo img{
-    width: 25%;
+    width: 30%;
     max-width: 50px;
+}
+
+.searchbar-big{
+    display: block;
+}
+
+.icon-tabler-search{
+    display: none;
+}
+
+@media (max-width: 576px){
+    .logo img{
+        width: 20%;
+    }
+    .icon{
+        width: 24px;
+        height: 24px;
+    }
+
+    .searchbar-big{
+        display: none;
+    }
+
+    .icon-tabler-search{
+        display: block;
+    }
+}
+
+
+
+.main-btn-navbar{
+    padding: 1.3rem 1rem;
+    font-size: large;
 }
 
 .shopping-cart-btn{
@@ -37,13 +70,17 @@
 
 .nitems-added{
     position: absolute;
-    top: 0px;
+    top: -5px;
     right: -9px;
     border: 1px solid black;
     background-color: var(--main-color);
     border-radius: 50%;
-    width: 45%;
-    height: 45%;
+    width: 55%;
+    height: 55%;
+}
+
+.nitems-added p{
+    width: 80%;
 }
 
 @media (min-width: 990px){
