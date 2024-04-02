@@ -1,0 +1,30 @@
+.top-img-wrapper{
+    position: relative;
+}
+
+.top-img-container{
+    min-height: 150px;
+    background-image: url(../img/top-img-categories.jpeg);
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    object-fit: contain;
+    z-index: -1;
+}
+
+.top-img-title{
+    font-size: 2.5rem;
+    position: absolute;
+    z-index: 2;
+}
+
+@media (min-width: 768px){
+    .top-img-container{
+        max-height: 300px;
+        background-image: url(../img/top-img-categories-large.jpg);
+        background-size: cover;
+    }
+
+    .top-img-title{
+        font-size: 4rem;
+    }
+}
