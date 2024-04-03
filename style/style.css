@@ -282,10 +282,20 @@ main hr {
 .left-column {
     margin: 20px;
     text-align: start;
+    font-size: 1.5rem;
 }
 
 .right-column {
     margin: 70px;
+    font-size: 1.5rem;
+}
+
+.center-column{
+    font-size: 1.5rem;
+}
+
+.list-group{
+    font-size: 1.3rem;
 }
   
 footer {
@@ -295,6 +305,7 @@ footer {
 .btn-primary {
     background-color: #faab78;
     color: black;
+    font-size: 1.3rem;
 }
 
 .container-fluid a {
@@ -303,7 +314,7 @@ footer {
 }
   
 .imagen-footer {
-    height: 100px;
+    height: 150px;
     margin-top: 20px;
     border-radius: 50%;
     text-align: center;
