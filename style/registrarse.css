@@ -5,7 +5,7 @@
 .formulario {
   color: #1f1717;
   border-radius: 30px;
-  width: 400px;
+  width: 100%;
   margin: 0 auto;
 }
 .nombre {
@@ -27,4 +27,12 @@
   color: #ee6408;
   text-decoration: none;
 }
+
+@media (max-width: 768px){
+  .modal-title{
+    font-size: 0.5rem;
+  }
+}
+
+
   
