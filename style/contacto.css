@@ -1,0 +1,64 @@
+.formulario {
+    text-align: center;
+  }
+  .campos-input {
+    width: 80vh;
+    background-color: #e8f3d6;
+  }
+  
+  .mensaje-input {
+    width: 80vh;
+    height: 50vh;
+    background-color: #e8f3d6;
+  }
+  .formulario-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .btn-primary {
+    background-color: #faab78;
+    color: black;
+  }
+  
+  @media (max-width: 767px) {
+    * {
+      font-size: 10px;
+    }
+    .formulario-container {
+      overflow: hidden;
+    }
+    .campos-input {
+      width: 300px;
+    }
+    .mensaje-input {
+      width: 300px;
+      height: 150px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1025px) {
+    .formulario-container {
+      overflow: hidden;
+    }
+    .campos-input {
+      width: 500px;
+    }
+    .mensaje-input {
+      width: 500px;
+      height: 180px;
+    }
+  }
+  .parrafo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .mapa-contacto {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .mapa-contacto iframe {
+    height: 100%;
+    width: 40%;
+    margin: 20px;
+  }
