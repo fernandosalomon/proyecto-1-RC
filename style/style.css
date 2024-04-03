@@ -364,6 +364,18 @@ footer {
     width: 100%;
 }
 
+.btn-facebook-login:active,
+.btn-facebook-login:focus,
+.btn-facebook-login:hover{
+    background-color: #104ea0;
+}
+
+.btn-google-login:active,
+.btn-google-login:focus,
+.btn-google-login:hover{
+    background-color: #9e9696a8;
+}
+
 .btn-facebook-login img,
 .btn-google-login img{
     width: 10%;
@@ -376,6 +388,7 @@ footer {
 }
 
 .btn-facebook-login{
+    justify-content: center;
     background-color: #1877f2;
     padding: 0.5rem;
     border-radius: 40px;
@@ -391,6 +404,7 @@ footer {
 }
 
 .btn-google-login{
+    justify-content: center;
     background-color: #efefef;
     padding: 0.5rem;
     border-radius: 40px;
