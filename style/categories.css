@@ -4,11 +4,19 @@
 
 .top-img-container{
     min-height: 150px;
-    background-image: url(../img/top-img-categories.jpeg);
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.6;
-    object-fit: contain;
     z-index: -1;
+}
+
+.top-img-grandes-clasicos{
+    background-image: url(../img/top-img-categories-gc-large.jpg);
+}
+
+.top-img-aventuras{
+    background-image: url(../img/top-img-categories-aventuras-large.jpg);
 }
 
 .top-img-title{
@@ -37,8 +45,14 @@
 @media (min-width: 768px){
     .top-img-container{
         max-height: 300px;
-        background-image: url(../img/top-img-categories-large.jpg);
-        background-size: cover;
+    }
+
+    .top-img-grandes-clasicos{
+        background-image: url(../img/top-img-categories-gc.jpeg);
+    }
+    
+    .top-img-aventuras{
+        background-image: url(../img/top-img-categories-aventuras.jpg);
     }
 
     .top-img-title{
