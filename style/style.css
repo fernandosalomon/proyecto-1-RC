@@ -391,16 +391,16 @@ footer {
     width: 100%;
 }
 
-.btn-facebook-login:active,
+.btn-facebook-login:hover,
 .btn-facebook-login:focus,
-.btn-facebook-login:hover{
-    background-color: #104ea0;
+.btn-facebook-login:active{
+    background-color: #104ea0!important;
 }
 
 .btn-google-login:active,
 .btn-google-login:focus,
 .btn-google-login:hover{
-    background-color: #9e9696a8;
+    background-color: #9e9696a8!important;
 }
 
 .btn-facebook-login img,
