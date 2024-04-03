@@ -24,7 +24,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light justify-content-around gap-0-flex fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-around gap-0-flex navbar-fixed-top">
         <div class="container-fluid row">
 
           <div class="d-flex col-6 col-md-4 gap-3 px-0 gap-0-flex order-1">
@@ -167,65 +167,54 @@
     </div>
   </header>
   <main>
-    <section>
+    <section class="container">
         <h5 class="parrafo">
           Tu opinión es importante para nosotros. Si tienes alguna pregunta o
           comentario, no dudes en hacérnoslo saber
         </h5>
       </section>
-      <section>
-        <form class="formulario">
+      <section class="mt-5">
+        <form class="formulario form-group" action="./error_404.html">
           <div class="mb-3 formulario-container">
-            <label for="exampleInputtext1" class="form-label"
-              >Nombre y Apellido</label
-            >
+            <label for="NombreUsuario" class="form-label">Nombre y Apellido</label>
             <input
-              class="campos-input"
+              class="campos-input form-control"
               type="text"
-              class="form-control"
-              id="exampleInputtext1"
+              id="NombreUsuario"
               maxlength="50"
+              pattern="^\s*[a-zA-ZñÑáÁéÉíÍóÓúÚ'\s]+\s*$"
               required
             />
           </div>
           <div class="mb-3 formulario-container">
-            <label for="exampleInputEmail1" class="form-label"
+            <label for="emailUsuario" class="form-label"
               >Correo electónico</label
             >
             <input
-              class="campos-input"
-              type="Number"
-              class="form-control"
-              id="exampleInputEmail1"
+              class="campos-input form-control"
+              type="email"
+              id="emailUsuario"
               aria-describedby="emailHelp"
               maxlength="100"
+              pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
               required
             />
             <div class="mb-3 formulario-container">
-              <label for="exampletelefono" class="form-label">Telefono</label>
+              <label for="telefonoUsuario" class="form-label">Telefono</label>
               <input
-                class="campos-input"
-                type="email"
-                class="form-control"
-                id="exampletelefono"
+                class="campos-input form-control"
+                type="number"
+                id="telefonoUsuario"
+                pattern="^[0-9]+$"
                 maxlength="20"
               />
             </div>
             <div class="mb-3 formulario-container">
-              <label for="examplecomentario" class="form-label">Mensaje</label>
-              <input
-                class="mensaje-input"
-                type="email"
-                class="form-control"
-                id="examplecomentario"
-                required
-              />
+              <label for="mensajeUsuario" class="form-label">Mensaje</label>
+              <textarea class="form-control mensaje-input" id="mensajeUsuario"></textarea>
             </div>
-            <label class="form-check-label" for="exampleCheck1"></label>
           </div>
-          <a href="#"
-            ><button type="submit" class="btn btn-primary">Enviar</button></a
-          >
+            <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
       </section>
       <section class="mapa-contacto">
@@ -242,7 +231,7 @@
       </section>
   </main>
   <footer class="container-fluid">
-    <div class="container">
+    <div class="container pt-4">
       <div class="row align-items-center">
         <div class="col-sm-12 col-md-4 order-2 order-md-1">
           <div class="left-column">

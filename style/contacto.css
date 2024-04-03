@@ -1,64 +1,76 @@
 .formulario {
     text-align: center;
-  }
-  .campos-input {
+    font-size: 1.5rem;
+}
+.campos-input {
     width: 80vh;
     background-color: #e8f3d6;
-  }
+}
   
-  .mensaje-input {
+.mensaje-input {
     width: 80vh;
     height: 50vh;
     background-color: #e8f3d6;
-  }
-  .formulario-container {
+}
+.formulario-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+}
+.formulario label{
+    margin-top: 1.2rem;
+}
+ 
+
+@media (max-width: 767px) {
+  .formulario-container {
+    overflow: hidden;
   }
-  .btn-primary {
-    background-color: #faab78;
-    color: black;
+  .campos-input {
+    width: 300px;
+    font-size: 1.5rem;
   }
-  
-  @media (max-width: 767px) {
-    * {
-      font-size: 10px;
-    }
-    .formulario-container {
-      overflow: hidden;
-    }
-    .campos-input {
-      width: 300px;
-    }
-    .mensaje-input {
-      width: 300px;
-      height: 150px;
-    }
+  .mensaje-input {
+    width: 300px;
+    height: 150px;
   }
-  @media (min-width: 768px) and (max-width: 1025px) {
-    .formulario-container {
-      overflow: hidden;
-    }
-    .campos-input {
-      width: 500px;
-    }
-    .mensaje-input {
-      width: 500px;
-      height: 180px;
-    }
+  .btn-primary{
+    font-size: 2rem;
   }
-  .parrafo {
-    text-align: center;
-    margin-top: 20px;
+  .form-label{
+    font-size: 2rem;
   }
-  .mapa-contacto {
-    margin-top: 30px;
-    text-align: center;
+}
+@media (min-width: 768px) and (max-width: 1025px) {
+  .formulario-container {
+    overflow: hidden;
   }
-  .mapa-contacto iframe {
-    height: 100%;
-    width: 40%;
-    margin: 20px;
+  .campos-input {
+    width: 500px;
   }
+  .mensaje-input {
+    width: 500px;
+    height: 180px;
+  }
+}
+
+.btn-primary{
+    font-size: 1.5rem;
+}
+
+.parrafo {
+  text-align: center;
+  margin: 20px 20px;
+  font-size: 1.5rem;
+}
+.mapa-contacto {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.mapa-contacto iframe {
+  height: 100%;
+  width: 40%;
+  margin: 20px;
+}
