@@ -1,0 +1,30 @@
+.titulo {
+    text-align: center;
+    font-size: 50px;
+}
+.formulario {
+  color: #1f1717;
+  border-radius: 30px;
+  width: 400px;
+  margin: 0 auto;
+}
+.nombre {
+  text-align: center;
+  color: #1f1717;
+}
+.InicioSesion {
+  text-align: center;
+}
+.fondo {
+  background-color: azure;
+}
+.boton {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.mensaje-login{
+  color: #ee6408;
+  text-decoration: none;
+}
+  
