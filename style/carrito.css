@@ -1,0 +1,72 @@
+.page-title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.cart-card{
+    object-fit: cover;
+}
+
+.cart-card img{
+    width: 15%;
+}
+
+.card-title,
+.card-price{
+    font-size: 2rem;
+}
+
+.erase-btn{
+    display: block;
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: #ca7308!important;
+}
+
+.erase-btn:hover,
+.erase-btn:focus,
+.erase-btn:active{
+    color: #FF8C00!important;
+}
+
+
+.moneda-de-pago-select{
+    width: 30%;
+}
+
+.prom-code,
+.continue-buying-link{
+    color: #FF8C00!important;
+}
+
+.buy-panel{
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    padding: 25px 15px;
+    box-shadow: 0 -6px 6px -1px hsla(0,0%,100%,.8),0 -4px 4px -2px hsla(0,0%,100%,.8)
+}
+
+@media (max-width: 756px){
+    .card-title,
+    .card-price{
+    font-size: 1.5rem;
+    }
+
+    .erase-btn{
+        font-size: 1.5rem;
+    }
+
+    .cart-card img{
+        width: 35%;
+    }
+
+    .moneda-de-pago-select{
+        width: 45%;
+    }
+
+    .subtotal p,
+    .total p{
+        font-size: 1.3rem;
+    }
+
+}
