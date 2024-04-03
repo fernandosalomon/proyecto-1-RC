@@ -59,6 +59,7 @@ body {
     text-decoration: none;
     transition: all 250ms;
     width: auto;
+    padding: 10px 20px;
 }
   
 .btn-cortazar:hover,
