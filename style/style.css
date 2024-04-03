@@ -93,12 +93,21 @@ body {
 }
 
 .logo img{
-    width: 30%;
+    width: 35%;
     max-width: 50px;
+}
+
+.logo p{
+    font-size: 2rem;
 }
 
 .searchbar-big{
     display: block;
+}
+
+.searchbar-big input{
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .main-btn-navbar{
