@@ -371,7 +371,14 @@ footer {
     padding: 0.5rem;
     border-radius: 40px;
     width: 80%;
+}
 
+.navbar-btn{
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    padding: 4px;
+    margin-left: 2px;
 }
 
 .btn-google-login{
@@ -381,10 +388,6 @@ footer {
     width: 80%;
 }
 
-@media (min-width: 768px){
-    .btn-facebook-login,
-    .btn-google-login{
-        width:60%;
-    }
+.offcanvas-element-list-hover:hover{
+    color: #FF8C00;
 }
-
