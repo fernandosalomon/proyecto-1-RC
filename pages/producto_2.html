@@ -116,12 +116,12 @@
     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header border-0">
+          <div class="modal-header border-0 pb-0">
             <h1 class="modal-title fs-3" id="loginModalLabel">Inicia Sesión</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-              <div class="container row gy-3 mx-auto">
+              <div class="container row gy-2 mx-auto">
                 <div class="col-12 col-md-7 order-2 order-md-1">
                   <form action="./error_404.html?" id="loginForm">
                     <div class="mb-3">
@@ -149,18 +149,25 @@
                 
           </div>
           <p class="text-center m-0 fs-4">ó</p>
-          <div class="my-4 bg-transparent">
+          <div class="my-2 bg-transparent">
             <div class="container d-flex flex-column align-items-center gap-2">
               <button class="btn btn-facebook-login d-flex align-items-center gap-2" type="button">
-                  <img src="../img/fc-logo.png" alt="facebook logo">
+                  <img src="./img/fc-logo.png" alt="facebook logo">
                   <p class="m-0 fw-bold text-white">Continuar con facebook</p>
               </button>
               <button class="btn btn-google-login d-flex align-items-center gap-2" type="button">
-                  <img src="../img/google-logo.png" alt="google logo">
+                  <img src="./img/google-logo.png" alt="google logo">
                   <p class="m-0 fw-bold">Continuar con Google</p>
               </button>
             </div>
           </div>
+          <div class="register-option text-center my-3">
+            <p class="fs-4">¿Todavía no estas registrado?</p>
+            <button type="button" class="btn-cortazar px-3 fs-4" data-bs-toggle="modal" data-bs-target="#registerModal">
+              Regístrate
+            </button>
+          </div>
+
         </div>
       </div>
     </div>
