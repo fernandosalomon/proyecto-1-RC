@@ -192,7 +192,7 @@
                       class="form-control"
                       id="userRealName"
                       required
-                      minlength="10"
+                      pattern="^[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]$"
                       maxlength="30"
                     />
                   </div>
@@ -204,7 +204,7 @@
                       id="userName"
                       aria-describedby="emailHelp"
                       required
-                      minlength="10"
+                      pattern="^[a-zA-ZñÑáÁéÉíÍóÓúÚ\s][0-9]$"
                       maxlength="30"
                     />
                   </div>
@@ -215,7 +215,7 @@
                       class="form-control"
                       id="userPhoneNumber"
                       required
-                      minlength="10"
+                      pattern="^[0-9]$"
                       maxlength="30"
                     />
                   </div>
@@ -226,7 +226,7 @@
                       class="form-control"
                       id="userAddress"
                       required
-                      minlength="10"
+                      pattern="^[a-zA-ZñÑáÁéÉíÍóÓúÚ\s][0-9]$"
                       maxlength="30"
                     />
                   </div>
@@ -237,7 +237,7 @@
                       class="form-control"
                       id="userCP"
                       required
-                      minlength="4"
+                      pattern="^[0-9]$"
                       maxlength="10"
                     />
                   </div>
@@ -249,7 +249,7 @@
                       id="userEmail"
                       aria-describedby="emailHelp"
                       required
-                      minlength="10"
+                      pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
                       maxlength="30"
                     />
                   </div>
