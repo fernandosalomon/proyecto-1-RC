@@ -22,7 +22,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light justify-content-around gap-0-flex">
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-around gap-0-flex fixed-top">
         <div class="container-fluid row">
 
           <div class="d-flex col-6 col-md-4 gap-3 px-0 gap-0-flex order-1">
@@ -35,9 +35,11 @@
               </svg>
             </button>
 
-            <div class="logo d-flex align-items-center justify-content-start gap-1 ps-0">
-                <img src="./img/favicon.png" alt="Cortazar Libros">
-                <a class="navbar-brand m-0" href="#">Cortazar</a>
+            <div class="logo">
+                <a href="./index.html" class="d-flex align-items-center justify-content-start gap-1 ps-0">
+                  <img src="./img/favicon.png" alt="Cortazar Libros">
+                  <p class="navbar-brand m-0">Cortazar</p>
+                </a>
             </div>
           </div>
 
@@ -241,7 +243,7 @@
       </h2>
     </div>
 
-    <div class="main-wrapper container-fluid">
+    <div class="main-wrapper container-fluid px-3">
       <div class="container-fluid row mx-auto">
         <div class="col-12 col-md-10">
         <!-- ================== ULTIMAS NOVEDADES===================== -->
@@ -693,23 +695,23 @@
           <div class="left-column">
             <ul class="list-group">
               <li class="list-group-item border-0 bg-transparent"><h4>Temáticas</h4></li>
-              <a href="#"><li class="list-group-item border-0 bg-transparent p-1">Literatura</li></a>
-              <a href="#"> <li class="list-group-item border-0 bg-transparent p-1">Grandes clásico</li></a>
-              <a href="#"><li class="list-group-item border-0 bg-transparent p-1">Juvenil</li></a>
-              <a href="#"> <li class="list-group-item border-0 bg-transparent p-1">Aventura</li></a>
-              <a href="#"> <li class="list-group-item border-0 bg-transparent p-1">Autoayuda</li></a>
-              <a href="#"> <li class="list-group-item border-0 bg-transparent p-1">Y más...</li></a>
+              <a href="./pages/aventuras.html"><li class="list-group-item border-0 bg-transparent p-1">Literatura</li></a>
+              <a href="./pages/grandes-clasicos.html"> <li class="list-group-item border-0 bg-transparent p-1">Grandes clásico</li></a>
+              <a href="./pages/grandes-clasicos.html"><li class="list-group-item border-0 bg-transparent p-1">Juvenil</li></a>
+              <a href="./pages/aventuras.html"> <li class="list-group-item border-0 bg-transparent p-1">Aventura</li></a>
+              <a href="./pages/grandes-clasicos.html"> <li class="list-group-item border-0 bg-transparent p-1">Autoayuda</li></a>
+              <a href="./pages/aventuras.html"> <li class="list-group-item border-0 bg-transparent p-1">Y más...</li></a>
             </ul>
           </div>
         </div>
         <div class="col-sm-12 col-md-4 order-1 order-md-2">
           <div class="center-column d-flex flex-column align-items-center">
-            <a href="">
+            <a href="./index.html">
               <img class="imagen-footer" src="./img/1.png" alt="logo"/>
             </a>
             <div class="text-center">
               <p class="m-3">Suscribite para recibir recomendaciones</p>
-              <a class="btn btn-primary" href="#" role="button"
+              <a class="btn btn-primary" href="./pages/error_404.html" role="button"
                 >Suscribirse</a
               >
             </div>
@@ -722,27 +724,27 @@
             </ul>
             <div class="social-networks mt-3">
               <p class="fs-4">Siguenos en redes</p>
-              <a href="#">
+              <a href="https://facebook.com">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
                 </svg>
               </a>
-              <a href="#">
+              <a href="https://twitter.com/">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
                   <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
                 </svg>
               </a>
-              <a href="#">
+              <a href="https://instagram.com/">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
                   <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
                   <path d="M16.5 7.5l0 .01" />
                 </svg>
-              <a href="#">
+              <a href="https://youtube.com/">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
@@ -776,16 +778,16 @@
             Temáticas
           </p>
           <ul class="list-group list-unstyled bg-transparent">
-            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="#">Literatura</a></li>
-            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="#">Grandes Clásicos</a></li>
-            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="#">Juvenil</a></li>
-            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="#">Aventura</a></li>
-            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="#">Autoayuda</a></li>
-            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="#">Y mas...</a></li>
+            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="./pages/aventuras.html">Literatura</a></li>
+            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="./pages/grandes-clasicos.html">Grandes Clásicos</a></li>
+            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="./pages/aventuras.html">Juvenil</a></li>
+            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="./pages/aventuras.html">Aventura</a></li>
+            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="./pages/grandes-clasicos.html">Autoayuda</a></li>
+            <li><a class="list-group-item border-0 bg-transparent fs-4 offcanvas-element-list-hover" href="./pages/aventuras.html">Y mas...</a></li>
           </ul>
         </li>
         <li>
-          <a href="" class="list-group-item border-0 bg-transparent fs-3  fw-bold offcanvas-element-list-hover">
+          <a href="./pages/error_404.html" class="list-group-item border-0 bg-transparent fs-3  fw-bold offcanvas-element-list-hover">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-feather" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
               <path d="M4 20l10 -10m0 -5v5h5m-9 -1v5h5m-9 -1v5h5m-5 -5l4 -4l4 -4" />
@@ -794,8 +796,8 @@
             Autores
           </a>
         </li>
-        <li ><a href="" class="list-group-item border-0 bg-transparent fs-3  fw-bold offcanvas-element-list-hover">Sobre Nosotros</a></li>
-        <li ><a href="" class="list-group-item border-0 bg-transparent fs-3  fw-bold offcanvas-element-list-hover">
+        <li ><a href="./pages/acerca-nosotros.html" class="list-group-item border-0 bg-transparent fs-3  fw-bold offcanvas-element-list-hover">Sobre Nosotros</a></li>
+        <li ><a href="" data-bs-toggle="modal" data-bs-target="#loginModal" class="list-group-item border-0 bg-transparent fs-3  fw-bold offcanvas-element-list-hover">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-square-rounded" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M12 13a3 3 0 1 0 0 -6a3 3 0 0 0 0 6z" />
